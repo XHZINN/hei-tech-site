@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEI TECH</title>
+  <link rel="icon" type="image/png" href="imagens/capasite.png">
+  <link rel="stylesheet" href="atributos/style.css">
+    <script src="atributos/tema.js"></script>
+
+</head>
+<body>
+  <button id="toggle-theme" class="theme-toggle" aria-label="Alternar tema">
+    <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" class="icon hidden" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+     <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m15.364-6.364l-1.06 1.06M6.697 17.303l-1.06 1.06m0-12.727l1.06 1.06M17.303 17.303l1.06 1.06M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" />
+    </svg>
+
+    <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+    </svg>
+   </button>
+
+
+  <header>
+    <h1>HEI TECH</h1>
+    <p><em>Tecnologia que conecta, inovação que transforma.</em></p>
+  </header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="servicos/trafego-pago.html">Tráfego Pago</a></li>
+      <li><a href="servicos/design.html">Design</a></li>
+      <li><a href="servicos/sites.html">Criação de Sites</a></li>
+      <li><a href="servicos/sistemas.html">Sistemas Simples</a></li>
+      <li><a href="servicos/IA.html">Automação com IA</a></li>
+    </ul>
+  </nav>
+
+  <section id="sobre">
+    <h2 class="section-title">Sobre Nós</h2>
+    <p>Na HEI TECH, oferecemos soluções digitais inteligentes que conectam empresas ao futuro. Unimos criatividade, tecnologia e automação para transformar ideias em resultados reais.</p>
+  </section>
+
+  <section id="servicos">
+    <h2 class="section-title">Serviços</h2>
+    <div class="services">
+      <div class="service">
+        <strong>Tráfego Pago</strong>
+        <p>Campanhas de alta performance para atrair mais clientes.</p>
+        <a href="servicos/trafego-pago.html" class="saiba-mais">Saiba mais</a>
+      </div>
+      <div class="service">
+        <strong>Design</strong>
+        <p>Identidade visual profissional e impactante.</p>
+        <a href="servicos/design.html" class="saiba-mais">Saiba mais</a>
+      </div>
+      <div class="service">
+        <strong>Criação de Sites</strong>
+        <p>Sites modernos, rápidos e responsivos.</p>
+        <a href="servicos/sites.html" class="saiba-mais">Saiba mais</a>
+      </div>
+      <div class="service">
+        <strong>Sistemas Simples</strong>
+        <p>Soluções web sob medida para facilitar processos.</p>
+        <a href="servicos/sistemas.html" class="saiba-mais">Saiba mais</a>
+      </div>
+      <div class="service">
+        <strong>Automação com IA</strong>
+        <p>Automatize tarefas e ganhe produtividade com inteligência artificial.</p>
+        <a href="servicos/IA.html" class="saiba-mais">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="porque">
+    <h2 class="section-title">Por que contratar cada serviço?</h2>
+    <div class="why">
+      <h3>🚀 Tráfego Pago</h3>
+      <p><strong>Mais visibilidade, mais vendas.</strong><br>
+      Acelere seus resultados com campanhas segmentadas no Google, Instagram e Facebook. Alcance quem realmente tem interesse no seu produto ou serviço e invista de forma inteligente e mensurável.</p>
+    </div>
+    <div class="why">
+      <h3>🎨 Design</h3>
+      <p><strong>Primeiras impressões importam.</strong><br>
+      Transmita profissionalismo com uma identidade visual marcante. Designs que fortalecem sua marca e criam confiança, falando direto com o seu público.</p>
+    </div>
+    <div class="why">
+      <h3>🌐 Criação de Sites</h3>
+      <p><strong>Sua presença digital começa com um site.</strong><br>
+      Mostre seus serviços 24h por dia, todos os dias. Tenha mais credibilidade e autoridade com um site rápido, bonito e adaptado para todos os dispositivos.</p>
+    </div>
+    <div class="why">
+      <h3>🛠️ Sistemas Simples</h3>
+      <p><strong>Automatize o que te dá trabalho.</strong><br>
+      Crie sistemas personalizados que atendem exatamente sua necessidade. Esqueça planilhas confusas e processos manuais: ganhe agilidade com soluções sob medida.</p>
+    </div>
+    <div class="why">
+      <h3>🤖 Automação com IA</h3>
+      <p><strong>Deixe a inteligência artificial trabalhar por você.</strong><br>
+      Respostas automáticas, geração de conteúdo, e-mails inteligentes e muito mais. Ganhe tempo e produtividade com ferramentas modernas e tecnológicas.</p>
+    </div>
+  </section>
+    <section id="contato" class="contact">
+      <h2 class="section-title">Contato</h2>
+      <p>Vamos conversar sobre o seu projeto?</p>
+    </section>
+    <div id="contato-container">
+    <section id="email">
+      <form onsubmit="sendEmail(event)">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <textarea name="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+    </section>
+    <section id="tel">
+      <p class="tel-text"><strong>Se preferir entre em contato diretamente pelo nosso whatsapp:</strong></p>
+      <a class="whatsapp-button" href="https://wa.me/5598981508661?text=Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os..." target="_blank">Falar pelo WhatsApp</a>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 HEI TECH — Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    function sendEmail(e) {
+      e.preventDefault();
+      const form = e.target;
+      const nome = form.nome.value;
+      const email = form.email.value;
+      const mensagem = form.mensagem.value;
+      alert("Mensagem enviada com sucesso!\n\nNome: " + nome + "\nEmail: " + email + "\nMensagem: " + mensagem);
+      form.reset();
+    }
+  </script>
+</body>
+</html>
