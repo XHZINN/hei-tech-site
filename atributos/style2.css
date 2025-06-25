@@ -204,7 +204,7 @@ section.motivo {
     right: 20px; /* mobile */
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .motivo-inner {
     background-image: none !important;
     flex-direction: column;
@@ -238,6 +238,8 @@ section.motivo {
   /* Motivo 1 */
   .motivo:nth-of-type(2) .motivo-inner {
     background-color: #1ebe5d; /* verde */
+    margin-left: 20px ;
+    margin-right: 20px;
   }
   .motivo:nth-of-type(2) .motivo-inner::after {
     background-image: url('../imagens/mobile/visibilidade.png');
@@ -247,6 +249,8 @@ section.motivo {
   /* Motivo 2 */
   .motivo:nth-of-type(3) .motivo-inner {
     background-color: #19274f; /* azul */
+    margin-left: 20px ;
+    margin-right: 20px;
   }
   .motivo:nth-of-type(3) .motivo-inner::after {
     background-image: url('../imagens/mobile/segmentação.png');
@@ -256,6 +260,8 @@ section.motivo {
   /* Motivo 3 */
   .motivo:nth-of-type(4) .motivo-inner {
     background-color: #1ebe5d;
+    margin-left: 20px ;
+    margin-right: 20px;
   }
   .motivo:nth-of-type(4) .motivo-inner::after {
     background-image: url('../imagens/mobile/vendas.png');
@@ -265,6 +271,8 @@ section.motivo {
   /* Motivo 4 */
   .motivo:nth-of-type(5) .motivo-inner {
     background-color: #19274f;
+    margin-left: 20px ;
+    margin-right: 20px;
   }
   .motivo:nth-of-type(5) .motivo-inner::after {
     background-image: url('../imagens/mobile/retorno.png');
