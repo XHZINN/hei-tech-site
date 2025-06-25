@@ -245,8 +245,8 @@
 }
 @media (max-width: 768px) {
   .theme-toggle {
-    top: auto;
-    bottom: 20px;
-    right: 20px;
+    top: auto;        /* remove o top */
+    bottom: 20px;     /* adiciona distância do fundo */
+    right: 20px; /* mobile */
   }
 }

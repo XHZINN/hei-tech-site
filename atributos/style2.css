@@ -199,8 +199,75 @@ section.motivo {
 }
 @media (max-width: 768px) {
   .theme-toggle {
-    top: auto;
-    bottom: 20px;
-    right: 20px;
+    top: auto;        /* remove o top */
+    bottom: 20px;     /* adiciona distância do fundo */
+    right: 20px; /* mobile */
+  }
+}
+@media (max-width: 768px) {
+  .motivo-inner {
+    background-image: none !important;
+    flex-direction: column;
+    padding: 30px 20px;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .motivo-conteudo {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 80%; /* deixa margem nas laterais */
+    margin-bottom: 20px;
+  }
+
+  /* Remove imagem anterior e define novo espaço para imagem real */
+  .motivo-inner::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 180px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Motivo 1 */
+  .motivo:nth-of-type(2) .motivo-inner {
+    background-color: #1ebe5d; /* verde */
+  }
+  .motivo:nth-of-type(2) .motivo-inner::after {
+    background-image: url('../imagens/mobile/visibilidade.png');
+    height: 260px;
+  }
+
+  /* Motivo 2 */
+  .motivo:nth-of-type(3) .motivo-inner {
+    background-color: #19274f; /* azul */
+  }
+  .motivo:nth-of-type(3) .motivo-inner::after {
+    background-image: url('../imagens/mobile/segmentação.png');
+    height: 260px;
+  }
+
+  /* Motivo 3 */
+  .motivo:nth-of-type(4) .motivo-inner {
+    background-color: #1ebe5d;
+  }
+  .motivo:nth-of-type(4) .motivo-inner::after {
+    background-image: url('../imagens/mobile/vendas.png');
+    height: 260px;
+  }
+
+  /* Motivo 4 */
+  .motivo:nth-of-type(5) .motivo-inner {
+    background-color: #19274f;
+  }
+  .motivo:nth-of-type(5) .motivo-inner::after {
+    background-image: url('../imagens/mobile/retorno.png');
+    height: 260px;
   }
 }
