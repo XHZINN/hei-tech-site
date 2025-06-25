@@ -243,3 +243,10 @@
 .navbar li a:hover {
   color: #22c55e;
 }
+@media (max-width: 768px) {
+  .theme-toggle {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+  }
+}

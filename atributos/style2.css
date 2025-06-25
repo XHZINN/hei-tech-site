@@ -197,3 +197,10 @@ body.dark-mode .motivo-conteudo {
 section.motivo {
   margin-bottom: 60px;
 }
+@media (max-width: 768px) {
+  .theme-toggle {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+  }
+}
