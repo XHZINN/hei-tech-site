@@ -83,7 +83,7 @@ section.secao-gif2 {
  .gif-texto {
     width: 100%;
     max-width: 500px;
-    margin-left: calc(50% - 139px);
+    margin-left: calc(50% - 142px);
     padding: 0 20px; /* adiciona espaçamento lateral */
     text-align: center;
     display: flex;
