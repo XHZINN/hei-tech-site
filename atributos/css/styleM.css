@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .theme-toggle {
     top: auto;        /* remove o top */
-    bottom: 20px;     /* adiciona distância do fundo */
+    top: 20px;     /* adiciona distância do fundo */
     right: 20px; /* mobile */
   }
 }
@@ -43,7 +43,7 @@
     margin-right: 20px;
   }
   .motivo:nth-of-type(2) .motivo-inner::after {
-    background-image: url('../imagens/mobile/visibilidade.png');
+    background-image: url('../../imagens/mobile/visibilidade.png');
     height: 260px;
   }
 
@@ -54,7 +54,7 @@
     margin-right: 20px;
   }
   .motivo:nth-of-type(3) .motivo-inner::after {
-    background-image: url('../imagens/mobile/segmentação.png');
+    background-image: url('../../imagens/segmentação.png');
     height: 260px;
   }
 
@@ -65,7 +65,7 @@
     margin-right: 20px;
   }
   .motivo:nth-of-type(4) .motivo-inner::after {
-    background-image: url('../imagens/mobile/vendas.png');
+    background-image: url('../../imagens/mobile/vendas.png');
     height: 260px;
   }
 
@@ -76,7 +76,7 @@
     margin-right: 20px;
   }
   .motivo:nth-of-type(5) .motivo-inner::after {
-    background-image: url('../imagens/mobile/retorno.png');
+    background-image: url('../../imagens/mobile/retorno.png');
     height: 260px;
   }
 }

@@ -5,24 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Design - HEI TECH</title>
   <link rel="stylesheet" href="../atributos/css/styledesign.css" />
-  <link rel="stylesheet" href="../atributos/css/styleMD.css" />
+  <link rel="stylesheet" href="../atributos/css/style2.css">
   <link rel="icon" type="image/png" href="../imagens/capasite1.png" />
+  <script src="../atributos/js/tema.js" defer></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-</head>
+</head> 
 <body>
+  <!-- Botão de tema -->
+  <button id="toggle-theme" class="theme-toggle" aria-label="Alternar tema">
+    <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" class="icon hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m15.36-6.36l-1.06 1.06M6.7 17.3l-1.06 1.06m0-12.72l1.06 1.06M17.3 17.3l1.06 1.06M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z"/>
+    </svg>
+    <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+    </svg>
+  </button>
   <header class="hero-design">
     <h1 class="design-title" data-aos="fade-down">Design que Impressiona</h1>
     <p class="design-subtitle" data-aos="fade-up">Transformamos ideias em identidade visual poderosa.</p>
-    <nav class="navbar">
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="trafego-pago.html">Tráfego Pago</a></li>
-        <li><a href="sites.html">Criação de Sites</a></li>
-        <li><a href="sistemas.html">Sistemas Simples</a></li>
-        <li><a href="IA.html">Automação com IA</a></li>
-      </ul>
-    </nav>
+     <nav class="navbar"data-aos="fade-up">
+       <ul>
+         <li><a href="../index.html">Home</a></li>
+         <li><a href="trafego-pago.html">Tráfego Pago</a></li>
+         <li><a href="sites.html">Criação de Sites</a></li>
+         <li><a href="sistemas.html">Sistemas Simples</a></li>
+         <!--<li><a href="IA.html">Automação com IA</a></li> -->
+       </ul>
+     </nav>
   </header>
 
   <section class="design-bloco" data-aos="fade-right">
@@ -49,25 +60,21 @@
     <h2 class="section-title">Por que investir em Design?</h2>
 
     <div class="card-beneficio">
-      <img src="../imagens/impressao.png" alt="Primeira impressão">
       <h3>Primeiras impressões importam</h3>
       <p>Um bom design causa impacto imediato, transmite credibilidade e prende a atenção do cliente nos primeiros segundos.</p>
     </div>
 
     <div class="card-beneficio">
-      <img src="../imagens/identidade.png" alt="Identidade visual">
       <h3>Identidade visual forte</h3>
       <p>Seu design comunica quem você é. Ter uma identidade sólida e coerente aumenta a lembrança da marca e a confiança.</p>
     </div>
 
     <div class="card-beneficio">
-      <img src="../imagens/experiencia.png" alt="Experiência do usuário">
       <h3>Melhora a experiência do usuário</h3>
       <p>Design não é só aparência: é facilidade de uso. Um visual organizado melhora navegação e engajamento.</p>
     </div>
 
     <div class="card-beneficio">
-      <img src="../imagens/conversao.png" alt="Conversão">
       <h3>Aumenta conversões</h3>
       <p>Um layout bem projetado orienta o cliente para a ação — seja clicar, comprar ou entrar em contato.</p>
     </div>

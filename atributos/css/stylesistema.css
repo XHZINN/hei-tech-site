@@ -9,7 +9,7 @@ html, body {
   border-radius: 25px;
   color: #fff;
   padding: 100px 70px;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   gap: 30px;
   margin-bottom: 30px;
 }
@@ -71,6 +71,20 @@ section.secao-gif2 {
 .body {
     overflow-x: hidden;
 }
+.gif-anime dotlottie-player {
+  border-radius: 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); /* opcional: um toque de sombra */
+}
+.gif-anime2 dotlottie-player {
+  border-radius: 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 
+  0 2px 8px rgba(0, 0, 0, 0.5),     /* sombra escura próxima */
+  0 6px 20px rgba(255, 255, 255, 0.08); /* luz suave ao redor */; /* opcional: um toque de sombra */
+}
 @media (max-width: 768px) {
   .gif-conteudo {
     flex-direction: column !important;
@@ -115,8 +129,8 @@ section.secao-gif2 {
 }
 @media (max-width: 768px) {
   .theme-toggle {
-    top: auto !important;        /* remove o top */
-    top: 20px !important;     /* adiciona distância do fundo */
+    top: auto;        /* remove o top */
+    top: 20px;     /* adiciona distância do fundo */
     right: 20px !important; /* mobile */
   }
 }
