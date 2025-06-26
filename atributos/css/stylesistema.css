@@ -97,7 +97,7 @@ section.secao-gif2 {
  .gif-texto {
     width: 100%;
     max-width: 500px;
-    margin-left: calc(50% - 139px);
+    margin-left: 50% !important;
     padding: 0 20px; /* adiciona espaçamento lateral */
     text-align: center;
     display: flex;
@@ -107,7 +107,7 @@ section.secao-gif2 {
     gap: 15px;
     box-sizing: border-box;
   }
-
+ 
 
   .gif-anime {
     width: 100%;
