@@ -1,0 +1,247 @@
+/* style-design.css */
+
+:root {
+  --primary: #1a1a2e;
+  --accent: #ff4081;
+  --bg-light: #ffffff;
+  --bg-dark: #121212;
+  --text-light: #333333;
+  --text-dark: #eeeeee;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+header {
+  background-color: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  background-image: linear-gradient(to right, #1a1a2e, #16213e);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  gap: 30px;
+}
+
+.feature:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.feature-text {
+  flex: 1 1 400px;
+}
+
+.feature img {
+  flex: 1 1 300px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.benefit {
+  background: var(--card-light);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.benefit:hover {
+  transform: translateY(-5px);
+}
+
+body.dark-mode .benefit {
+  background: var(--card-dark);
+}
+
+.contact {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 18px 28px;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  margin-top: 80px;
+}
+.design-bloco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.bloco-texto {
+  flex: 1 1 400px;
+}
+
+.bloco-texto h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.bloco-texto p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.bloco-img {
+  flex: 1 1 300px;
+}
+
+.bloco-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar li a:hover {
+  color: #22c55e;
+}
+.beneficios-design {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.beneficios-design .section-title {
+  grid-column: 1/-1;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: var(--text-light);
+}
+
+.card-beneficio {
+  background: var(--card-light);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 30px 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-beneficio:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-beneficio img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.card-beneficio h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: var(--text-light);
+}
+
+.card-beneficio p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-light);
+}
+
+body.dark-mode .card-beneficio {
+  background: var(--card-dark);
+}
+
+body.dark-mode .card-beneficio h3,
+body.dark-mode .card-beneficio p {
+  color: var(--text-dark);
+}

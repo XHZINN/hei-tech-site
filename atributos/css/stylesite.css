@@ -1,0 +1,67 @@
+.secao-gif {
+  width: 85vw;
+  background-color: #1a1a2e;
+  border-radius: 25px;
+  color: #fff;
+  padding: 100px 70px;
+  box-sizing: border-box;
+  gap: 30px;
+}
+section.secao-gif {
+  padding: 80px 60px;
+  max-width: none;
+  right: 30px;
+  left: 30px;
+  gap: 30px;
+}
+
+.secao-gif2 {
+  width: 85vw;
+  background-color: #1ebe5d;
+  border-radius: 25px;
+  color: #fff;
+  padding: 100px 70px;
+  box-sizing: border-box;
+  gap: 30px;
+}
+section.secao-gif2 {
+  padding: 80px 60px;
+  max-width: none;
+  right: 30px;
+  left: 30px;
+  gap: 30px;
+}
+
+.gif-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.gif-texto {
+  flex: 1;
+  min-width: 280px;
+}
+
+.gif-texto h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.gif-texto p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.gif-anime {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.body {
+    overflow-x: hidden;
+}

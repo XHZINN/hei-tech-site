@@ -2,87 +2,81 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Design - HEI TECH</title>
-  <link rel="icon" type="image/png" href="../imagens/capasite.png">
-  <link rel="stylesheet" href="../atributos/style2.css">
-  <script src="../atributos/tema.js" defer></script>
-  <script src="../atributos/efeitos.js" defer></script>
+  <link rel="stylesheet" href="../atributos/css/styledesign.css" />
+  <link rel="stylesheet" href="../atributos/css/styleMD.css" />
+  <link rel="icon" type="image/png" href="../imagens/capasite1.png" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
-
-  <button id="toggle-theme" class="theme-toggle" aria-label="Alternar tema">
-    <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" class="icon hidden" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-     <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m15.364-6.364l-1.06 1.06M6.697 17.303l-1.06 1.06m0-12.727l1.06 1.06M17.303 17.303l1.06 1.06M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" />
-    </svg>
-
-    <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
-    </svg>
-   </button>
-
-  <header>
-    <h1>Design</h1>
-    <p>Identidade visual que conecta e comunica.</p>
+  <header class="hero-design">
+    <h1 class="design-title" data-aos="fade-down">Design que Impressiona</h1>
+    <p class="design-subtitle" data-aos="fade-up">Transformamos ideias em identidade visual poderosa.</p>
+    <nav class="navbar">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="trafego-pago.html">Tráfego Pago</a></li>
+        <li><a href="sites.html">Criação de Sites</a></li>
+        <li><a href="sistemas.html">Sistemas Simples</a></li>
+        <li><a href="IA.html">Automação com IA</a></li>
+      </ul>
+    </nav>
   </header>
 
-   <nav class="navbar">
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="../servicos/trafego-pago.html">Tráfego Pago</a></li>
-      <li><a href="../servicos/sites.html">Criação de Sites</a></li>
-      <li><a href="../servicos/sistemas.html">Sistemas Simples</a></li>
-      <li><a href="../servicos/IA.html">Automação com IA</a></li>
-    </ul>
-  </nav>
+  <section class="design-bloco" data-aos="fade-right">
+    <div class="bloco-texto">
+      <h2>Identidade Visual</h2>
+      <p>Crie uma marca memorável com logos, cores e tipografia pensados para o seu público.</p>
+    </div>
+    <div class="bloco-img">
+      <img src="../imagens/logos/HEI TECH(1).png" alt="Identidade Visual">
+    </div>
+  </section>
 
-  <section>
+  <section class="design-bloco" data-aos="fade-left">
+    <div class="bloco-img">
+      <img src="../imagens/capasite.png" alt="Design para redes sociais">
+    </div>
+    <div class="bloco-texto">
+      <h2>Design para Redes Sociais</h2>
+      <p>Conte com artes impactantes, criativas e alinhadas com sua estratégia de comunicação.</p>
+    </div>
+  </section>
+
+  <section class="beneficios-design">
     <h2 class="section-title">Por que investir em Design?</h2>
-    <p class="section-corpo">
-      Um bom design é muito mais do que estética: ele comunica, transmite confiança e diferencia sua marca da concorrência. Desde o logotipo até o layout das redes sociais, o design é responsável por causar a primeira impressão e criar reconhecimento.
-    </p>
-  </section>
 
-  <section class="motivo">
-    <div class="motivo-inner bg-esquerda" style="background-image: url('../imagens/design-identidade.png');">
-      <div class="motivo-conteudo">
-        <h3>Fortalece sua identidade</h3>
-        <p>Com um design consistente, sua marca se torna reconhecível e memorável. Isso aumenta a autoridade e a confiança do público no seu negócio.</p>
-      </div>
+    <div class="card-beneficio">
+      <img src="../imagens/impressao.png" alt="Primeira impressão">
+      <h3>Primeiras impressões importam</h3>
+      <p>Um bom design causa impacto imediato, transmite credibilidade e prende a atenção do cliente nos primeiros segundos.</p>
+    </div>
+
+    <div class="card-beneficio">
+      <img src="../imagens/identidade.png" alt="Identidade visual">
+      <h3>Identidade visual forte</h3>
+      <p>Seu design comunica quem você é. Ter uma identidade sólida e coerente aumenta a lembrança da marca e a confiança.</p>
+    </div>
+
+    <div class="card-beneficio">
+      <img src="../imagens/experiencia.png" alt="Experiência do usuário">
+      <h3>Melhora a experiência do usuário</h3>
+      <p>Design não é só aparência: é facilidade de uso. Um visual organizado melhora navegação e engajamento.</p>
+    </div>
+
+    <div class="card-beneficio">
+      <img src="../imagens/conversao.png" alt="Conversão">
+      <h3>Aumenta conversões</h3>
+      <p>Um layout bem projetado orienta o cliente para a ação — seja clicar, comprar ou entrar em contato.</p>
     </div>
   </section>
 
-  <section class="motivo">
-    <div class="motivo-inner bg-direita" style="background-image: url('../imagens/design-profissionalismo.png');">
-      <div class="motivo-conteudo">
-        <h3>Transmite profissionalismo</h3>
-        <p>Um visual bem elaborado mostra que sua empresa é séria, organizada e pronta para atender com qualidade. Design é percepção de valor.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="motivo">
-    <div class="motivo-inner bg-esquerda" style="background-image: url('../imagens/design-experiencia.png');">
-      <div class="motivo-conteudo">
-        <h3>Melhora a experiência do usuário</h3>
-        <p>Layouts limpos, ícones intuitivos e cores bem escolhidas facilitam a navegação e tornam a experiência mais agradável, especialmente em sites e apps.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="motivo">
-    <div class="motivo-inner bg-direita" style="background-image: url('../imagens/design-conversao.png');">
-      <div class="motivo-conteudo">
-        <h3>Aumenta a conversão</h3>
-        <p>Design atrativo e estratégico orienta o usuário até a ação desejada, seja ela uma compra, um clique ou um formulário preenchido.</p>
-      </div>
-    </div>
-  </section>
 
   <section class="contact">
-    <h2 class="section-title">Sua marca merece destaque visual</h2>
-    <a class="whatsapp-button" href="https://wa.me/5598981508661?text=Olá!%20Tenho%20interesse%20em%20serviços%20de%20Design." target="_blank">
+    <h2 class="section-title">Vamos transformar sua identidade visual?</h2>
+    <a class="whatsapp-button" href="https://wa.me/5598981508661?text=Olá!%20Tenho%20interesse%20em%20design%20visual." target="_blank">
       Falar pelo WhatsApp
     </a>
   </section>
@@ -90,5 +84,9 @@
   <footer>
     <p>&copy; 2025 HEI TECH — Todos os direitos reservados</p>
   </footer>
+
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
 </body>
 </html>
