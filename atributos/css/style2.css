@@ -7,6 +7,10 @@
   --card-dark: #1e1e1e;
 }
 
+html {
+  color-scheme: light dark;
+}
+
 body {
   margin: 0; 
   padding: 0;
