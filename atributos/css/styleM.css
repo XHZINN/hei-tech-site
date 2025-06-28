@@ -54,7 +54,7 @@
     margin-right: 20px;
   }
   .motivo:nth-of-type(3) .motivo-inner::after {
-    background-image: url('../../imagens/segmentação.png');
+    background-image: url('../../imagens/mobile/segmentação.png');
     height: 260px;
   }
 
